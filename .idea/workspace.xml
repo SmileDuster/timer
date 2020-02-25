@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4b48d4-f43d-4c6d-a853-8dbac49be37e" name="Default Changelist" comment="" />
+    <list default="true" id="0a4b48d4-f43d-4c6d-a853-8dbac49be37e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lxc/timer/Inputwindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lxc/timer/Inputwindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lxc/timer/Myfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lxc/timer/Myfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lxc/timer/Mywindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lxc/timer/Mywindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lxc/timer/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lxc/timer/Variable.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YINMZBE84shC7KfmQZs2y609qJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pikachu\timer\data" />
       <recent name="D:\pikachu\timer" />
       <recent name="D:\pikachu\timer\src\com\lxc\timer" />
     </key>
@@ -51,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582626100243</updated>
       <workItem from="1582626101992" duration="1043000" />
-      <workItem from="1582627229204" duration="239000" />
+      <workItem from="1582627229204" duration="2600000" />
     </task>
     <servers />
   </component>
@@ -59,6 +75,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Inspections" timestamp="1582629459583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Inspections/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582629459583" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582626160436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -71,21 +91,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582626159678" />
-    <state width="543" height="276" key="GridCell.Tab.0.bottom" timestamp="1582627145639">
+    <state width="549" height="228" key="GridCell.Tab.0.bottom" timestamp="1582629666088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="543" height="276" key="GridCell.Tab.0.bottom/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582627145639" />
-    <state width="543" height="276" key="GridCell.Tab.0.center" timestamp="1582627145639">
+    <state width="549" height="228" key="GridCell.Tab.0.bottom/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582629666088" />
+    <state width="549" height="228" key="GridCell.Tab.0.center" timestamp="1582629666088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="543" height="276" key="GridCell.Tab.0.center/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582627145639" />
-    <state width="543" height="276" key="GridCell.Tab.0.left" timestamp="1582627145639">
+    <state width="549" height="228" key="GridCell.Tab.0.center/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582629666088" />
+    <state width="549" height="228" key="GridCell.Tab.0.left" timestamp="1582629666088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="543" height="276" key="GridCell.Tab.0.left/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582627145639" />
-    <state width="543" height="276" key="GridCell.Tab.0.right" timestamp="1582627145639">
+    <state width="549" height="228" key="GridCell.Tab.0.left/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582629666088" />
+    <state width="549" height="228" key="GridCell.Tab.0.right" timestamp="1582629666088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="543" height="276" key="GridCell.Tab.0.right/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582627145639" />
+    <state width="549" height="228" key="GridCell.Tab.0.right/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582629666088" />
+    <state x="1191" y="344" key="extract.method.dialog" timestamp="1582629278817">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1191" y="344" key="extract.method.dialog/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582629278817" />
   </component>
 </project>

@@ -12,15 +12,14 @@ public class Variable {
 	public static final int state2 = 45;
 	public static final int state3 = 68;
 	public static final int state4 = 85;
-	public static final int state0 = 90;
 	public static final int stoptime = 5;
 	
-	public static final String musicname[] = new String[4];
-	public static final String chaname[] = new String[2];
+	public static final String[] musicname = new String[4];
+	public static final String[] chaname = new String[2];
 	
-	public static String name[]= new String[3];
+	public static String[] name = new String[3];
 	
-	public static final URL o[]= new URL[4];
+	public static final URL[] o = new URL[4];
 	public static  URL Begin;
 	public static  URL Continue;
 	public static  URL Half;
@@ -29,9 +28,9 @@ public class Variable {
 	public static  URL Pause;
 	public static  URL Interruption;
 	
-	public static int hour[] = new int[3];
-	public static int min[] = new int[3];
-	public static int sec[] = new int[3];
+	public static int[] hour = new int[3];
+	public static int[] min = new int[3];
+	public static int[] sec = new int[3];
 	public static int lastday;
 	public static long realtime;
 	public static long maxrealtime;
@@ -75,7 +74,6 @@ public class Variable {
 			Pause = new URL("file:sound/pause.wav");
 			
 		} catch (MalformedURLException e) {
-			// TODO 自动生成的 catch 块
 			e.printStackTrace();
 		}
 		
@@ -85,21 +83,19 @@ public class Variable {
 		int m;
 		int d;
 		SimpleDateFormat df = new SimpleDateFormat("MM"); 
-		m=Integer.valueOf(df.format(System.currentTimeMillis()));
+		m=Integer.parseInt(df.format(System.currentTimeMillis()));
 		SimpleDateFormat df2 = new SimpleDateFormat("dd"); 
-		d=Integer.valueOf(df2.format(System.currentTimeMillis()));
+		d=Integer.parseInt(df2.format(System.currentTimeMillis()));
 		int count=0;
 		while(m!=6||d!=7) {
 			d++;
 			count++;
 			if(d>28)
 			if(m==2) {
-				if(d>28) {
-					d=1;
-					m++;
-				}
+				d=1;
+				m++;
 			}
-			else if(m==4||m==6||m==6||m==9||m==11) {
+			else if(m == 4 || m == 6 || m == 9 || m == 11) {
 				if(d>30) {
 					d=1;
 					m++;

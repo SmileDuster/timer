@@ -42,17 +42,11 @@ public class Myfile {
 				try {
 					FileReader fr1 = new FileReader(f);
 					BufferedReader br1 = new BufferedReader(fr1);
-					if(Integer.valueOf(br1.readLine())==1) {
-						Variable.mute=true;
-					}
-					else {
-						Variable.mute=false;
-					}
-					Variable.nowdata=Integer.valueOf(br1.readLine());
+					Variable.mute= Integer.parseInt(br1.readLine()) == 1;
+					Variable.nowdata=Integer.parseInt(br1.readLine());
 					br1.close();
 					fr1.close();
 				} catch (NumberFormatException | IOException e) {
-					// TODO 自动生成的 catch 块
 					e.printStackTrace();
 				}
 			}
@@ -69,7 +63,6 @@ public class Myfile {
 					Variable.mute=false;
 					Variable.nowdata=1;
 				} catch (IOException e) {
-					// TODO 自动生成的 catch 块
 					e.printStackTrace();
 				}
 			}
@@ -79,7 +72,6 @@ public class Myfile {
 				try {
 					f.createNewFile();
 				} catch (IOException e1) {
-					// TODO 自动生成的 catch 块
 					e1.printStackTrace();
 				}
 			}
@@ -97,7 +89,6 @@ public class Myfile {
 				bw1.close();
 				fw1.close();
 			} catch (IOException e) {
-				// TODO 自动生成的 catch 块
 				e.printStackTrace();
 			}
 			break;
@@ -117,14 +108,13 @@ public class Myfile {
 				try {
 					FileReader fr1 = new FileReader(f);
 					BufferedReader br1 = new BufferedReader(fr1);
-					Variable.mode=Integer.valueOf(br1.readLine());
-					Variable.endmusic=Integer.valueOf(br1.readLine());
-					Variable.beginmusic=Integer.valueOf(br1.readLine());
-					Variable.reporter=Integer.valueOf(br1.readLine());
+					Variable.mode=Integer.parseInt(br1.readLine());
+					Variable.endmusic=Integer.parseInt(br1.readLine());
+					Variable.beginmusic=Integer.parseInt(br1.readLine());
+					Variable.reporter=Integer.parseInt(br1.readLine());
 					br1.close();
 					fr1.close();
 				} catch (NumberFormatException | IOException e) {
-					// TODO 自动生成的 catch 块
 					e.printStackTrace();
 				}
 			}
@@ -147,7 +137,6 @@ public class Myfile {
 					Variable.beginmusic=1;
 					Variable.reporter=1;
 				} catch (IOException e) {
-					// TODO 自动生成的 catch 块
 					e.printStackTrace();
 				}
 			}
@@ -157,7 +146,6 @@ public class Myfile {
 				try {
 					f.createNewFile();
 				} catch (IOException e1) {
-					// TODO 自动生成的 catch 块
 					e1.printStackTrace();
 				}
 			}
@@ -193,15 +181,14 @@ public class Myfile {
 					FileReader fr1 = new FileReader(f);
 					BufferedReader br1 = new BufferedReader(fr1);
 					for(int i=0;i<=2;i++) {
-						Variable.hour[i]=Integer.valueOf(br1.readLine());
-						Variable.min[i]=Integer.valueOf(br1.readLine());
-						Variable.sec[i]=Integer.valueOf(br1.readLine());
+						Variable.hour[i]=Integer.parseInt(br1.readLine());
+						Variable.min[i]=Integer.parseInt(br1.readLine());
+						Variable.sec[i]=Integer.parseInt(br1.readLine());
 						Variable.name[i]=br1.readLine();
 					}
 					br1.close();
 					fr1.close();
 				} catch (NumberFormatException | IOException e) {
-					// TODO 自动生成的 catch 块
 					e.printStackTrace();
 				}
 			}
@@ -229,7 +216,6 @@ public class Myfile {
 						Variable.name[i]="未命名存档";
 					}
 				} catch (IOException e) {
-					// TODO 自动生成的 catch 块
 					e.printStackTrace();
 				}
 			}
@@ -239,7 +225,6 @@ public class Myfile {
 				try {
 					f.createNewFile();
 				} catch (IOException e1) {
-					// TODO 自动生成的 catch 块
 					e1.printStackTrace();
 				}
 			}
@@ -259,7 +244,6 @@ public class Myfile {
 				bw1.close();
 				fw1.close();
 			} catch (IOException e) {
-				// TODO 自动生成的 catch 块
 				e.printStackTrace();
 			}
 			break;
