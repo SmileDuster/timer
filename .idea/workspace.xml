@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a4b48d4-f43d-4c6d-a853-8dbac49be37e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YINMZBE84shC7KfmQZs2y609qJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pikachu\timer" />
+      <recent name="D:\pikachu\timer\src\com\lxc\timer" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxc.timer.Mywindow" />
+      <module name="timer" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a4b48d4-f43d-4c6d-a853-8dbac49be37e" name="Default Changelist" comment="" />
+      <created>1582626100243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582626100243</updated>
+      <workItem from="1582626101992" duration="1043000" />
+      <workItem from="1582627229204" duration="239000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582626160436">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582626160436" />
+    <state x="701" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582627267157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582627267157" />
+    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582626159678">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582626159678" />
+    <state width="543" height="276" key="GridCell.Tab.0.bottom" timestamp="1582627145639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="543" height="276" key="GridCell.Tab.0.bottom/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582627145639" />
+    <state width="543" height="276" key="GridCell.Tab.0.center" timestamp="1582627145639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="543" height="276" key="GridCell.Tab.0.center/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582627145639" />
+    <state width="543" height="276" key="GridCell.Tab.0.left" timestamp="1582627145639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="543" height="276" key="GridCell.Tab.0.left/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582627145639" />
+    <state width="543" height="276" key="GridCell.Tab.0.right" timestamp="1582627145639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="543" height="276" key="GridCell.Tab.0.right/-1920.-7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1582627145639" />
+  </component>
+</project>
